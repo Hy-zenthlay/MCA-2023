@@ -1,10 +1,13 @@
-# Week 5 and 7
+# Weeks 5 and 7
 
 <h3> Week 5</h3>
 During groupwork, the areas identified as important for metadata were the original composer, the publisher and date, the title, licensing laws, and online access/distributors. For my specific piece, La Boheme, I also wanted to include the genre and the librettist, as well as the reprint I was referencing. In the end, this meant the beginning of my MEI header included the following:
 
  ![MEI Header](https://github.com/Hy-zenthlay/MCA-2023/blob/master/Images/MEIHeader.png)
 
+<br>
+
+*The full MEI header can be found in the file LaBoheme.Cello.P43.meiheader.mei.*
 <br>
    I also wanted to utilise the auth.uri feature when referencing the composer, and chose to link to VIAF for Puccini to provide users with more information sources where possible. I also utilised MEIfriend heavily when creating the header and used it's suggestions and reviewing features heavily. 
 
