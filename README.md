@@ -4,3 +4,4 @@
 [Week 2](week2.md)<br>
 [Week 3](verovio.html)<br>
 [Week 4](week4.md)<br>
+[Week 5](week5.md)<br>
