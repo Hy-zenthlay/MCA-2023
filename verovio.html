@@ -49,16 +49,9 @@ li a:hover {
 </head>
 <body>
     <div class="header"><h1>Week 3</h1>
-<ul>
-<li><a href="index.html">Home</a></li>
-  <li><a href="week1.html">Week 1</a></li>
-  <li><a href="week2.html">Week 2</a></li>
-  <li><a href="verovio.html">Week 3</a></li>
-  <li><a href="week4.html">Week 4</a></li>
-</ul></div>
+</div>
         <p>Firstly, in XML, key is represented by a 'Key' element that has the child elements of fifths and is stored within the parent element of 'atributes', which itself is contained in 'elements' or 'parts'. In MEI it is recorded under an element named 'keySig', which has a wider amount options of child elements and can be contained by a variety of attirbutes, but in this specific context, 'staffDef'. MEI seems to give greater options and control over how the key signature is represented compared to XML, but the key signature in the XML can be easier to locate within the code. In MEI, the clef is also contained by 'staffDef' in the current example, and does not have any child elements. In XML, 'clef' is also used and contained by 'attributes', the contents of which are 'sign', 'line', and 'clef-octave-change'. When it comes to the actual measures, in XML, 'measure' is contained by 'part' and can have many different child elements to help build the contents of the bar, including things such as 'note', 'harmony', and 'barline'. In MEI, the options are even more vast - 'measure' is part of the parent element 'section', and has many possible child options which often contain their own options for child elements. In my specific piece, 'measure' contains 'staff' followed by 'layer', then 'rest' or 'note'. Once again, the theme is that the XML is more accessible to inexperienced users but MEI offers a greater diversity of options to authentically represent the score.</p></div>
     <div id="app">Verovio is loading...</div>
-    <br><br><br>
     
     <script type="module">
         import 'https://www.verovio.org/javascript/app/verovio-app.js';
@@ -83,5 +76,12 @@ li a:hover {
                 app.loadData(text);
             });
     </script>
+    <ul>
+<li><a href="index.html">Home</a></li>
+  <li><a href="week1.html">Week 1</a></li>
+  <li><a href="week2.html">Week 2</a></li>
+  <li><a href="verovio.html">Week 3</a></li>
+  <li><a href="week4.html">Week 4</a></li>
+</ul>
 </body>
 </html>
