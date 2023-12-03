@@ -53,8 +53,8 @@ td, th {
   padding: 10px;
 }
 
-tr:nth-child(even) {
-  background-color: #89ac86;
+tr:nth-child(odd) {
+  background-color: #bdcbbc;
 }
 
 .active {
