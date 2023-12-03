@@ -3,16 +3,44 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
   text-align: center}
+
 h2 {
   color: #000000;
   font-family: "Times New Roman", Times, serif;
   font-size: 30px}
+
 h3 {
   color: #000000;
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
   font-style: italic}
+
 p {
   color: #000000;
   font-family: "Times New Roman", Times, serif;
   font-size: 15px}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #89ac86;}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+
+li a:hover {
+  background-color: #688465;}
+
+.active {
+  background-color: #bdcbbc;
+}
